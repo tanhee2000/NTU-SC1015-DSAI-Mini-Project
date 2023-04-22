@@ -259,3 +259,4 @@ AI Predicted Tweet sentiments with `72% Accuracy`. Sentiment Analysis is a tedio
 7. [https://www.enjoyalgorithms.com/blog/sentiment-analysis-using-naive-bayes](https://www.enjoyalgorithms.com/blog/sentiment-analysis-using-naive-bayes)
 8. [https://towardsdatascience.com/an-easy-tutorial-about-sentiment-analysis-with-deep-learning-and-keras-2bf52b9cba91](https://towardsdatascience.com/an-easy-tutorial-about-sentiment-analysis-with-deep-learning-and-keras-2bf52b9cba91)
 9. [https://www.knime.com/blog/deep-learning-sentiment-analysis-tutorial](https://www.knime.com/blog/deep-learning-sentiment-analysis-tutorial)
+10. [https://www.datatechnotes.com/2020/07/classification-example-with-linearsvm-in-python.html](https://www.datatechnotes.com/2020/07/classification-example-with-linearsvm-in-python.html)
