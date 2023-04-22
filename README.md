@@ -8,9 +8,9 @@ Team: 2
 ## Our Team
 | Name | Parts Done | Github ID |
 |---|:---:|---|
-| Tan Hee | Exploratory Data Analysis (EDA), Data Preprocessing, VADER model, github | @tanhee2000 |
-| Lim Zheng Guang | Recurrent Neural Network | @fixthelights |
-| Kerwin Soon | Exploratory Data Analysis (EDA), Naive Bays Classifier, Support Vector Classifier| @kerwinsoon |
+| Tan Hee | Exploratory Data Analysis (EDA), Data Preprocessing, VADER model, Github Repo and Report | @tanhee2000 |
+| Kerwin Soon | Exploratory Data Analysis (EDA), Data Preprocessing, Naive Bays Classifier | @kerwinsoon |
+| Lim Zheng Guang | Support Vector Classifier, Recurrent Neural Network | @fixthelights |
 
 ## About
 
@@ -43,18 +43,19 @@ To accurately predict and classify the sentiment of the tweet as positive, negat
   2. Negative (Count: 7781)
   3. Positive (Count: 8582)
   
-  ![heat map](https://user-images.githubusercontent.com/90170330/233783250-ad4e47ab-d6b5-4699-8a7f-160618157717.png)
+  <img src="https://user-images.githubusercontent.com/90170330/233783250-ad4e47ab-d6b5-4699-8a7f-160618157717.png" width="600">
   
   ### Seaborn count plot
   
-  ![count plot](https://user-images.githubusercontent.com/90170330/233783158-2d52a6d0-5a76-402c-b369-758f33f7b811.png)  
+  <img src="https://user-images.githubusercontent.com/90170330/233783158-2d52a6d0-5a76-402c-b369-758f33f7b811.png" width="600">  
+  
   
   ### Seaborn histogram plot
   
   - All 3 sentiments have similar distribution of words in a tweet
   - Average distribution is 12 words in a tweet
   
-  ![hist plot](https://user-images.githubusercontent.com/90170330/233781878-eac9a9df-c05b-4647-8ae8-fbe78bac25e6.png)
+  <img src="https://user-images.githubusercontent.com/90170330/233781878-eac9a9df-c05b-4647-8ae8-fbe78bac25e6.png" width="600">
   
   ### Treepmap Charts
   
@@ -128,7 +129,7 @@ To accurately predict and classify the sentiment of the tweet as positive, negat
 We will be looking at 3 different models with different complexities to have a general idea of the performance to expect, and it'll make for good comparisions when we evaluate our models.
 
 1. [Lexicon-Based Sentiment Analysis with VADER](#Lexicon-Based-Sentiment-Analysis-with-VADER)
-2. [scikit-learn Models](#scikit-learn-Models)
+2. scikit-learn Models
     1. [Naive Bays Classifier](#Naive-Bays-Classifer)
     2. [LinearSVC Classifier](#LinearSVC-Classifer)
 3. [Recurrent Neural Network using Keras](#Recurrent-Neural-Network-using-Keras)
@@ -143,13 +144,13 @@ Since lexicon-based approaches are inherently `dumb` in that it simply refers to
 
 **Confusion Matrix for VADER**
   
-![vader](https://user-images.githubusercontent.com/90170330/233784489-9085951b-5b65-4908-82be-22339c92e4d5.jpg)
+<img src="https://user-images.githubusercontent.com/90170330/233784489-9085951b-5b65-4908-82be-22339c92e4d5.jpg" width="600">
 
 **F1 score for VADER**
 
 -  We found an average `F1 Score` of `0.64` for VADER.
 
-![vader accuracy](https://user-images.githubusercontent.com/90170330/233784656-6c404acc-4714-43a5-839b-e837b73fb519.png)
+<img src="https://user-images.githubusercontent.com/90170330/233784656-6c404acc-4714-43a5-839b-e837b73fb519.png" width="600">  
 
 ## Naive Bays Classifer
 
@@ -164,14 +165,14 @@ We split our data 80, 20 for training and testing respectively. Upon evaluation,
 
 **Confusion Matrix for Naive Bays**
   
-![naive bayes](https://user-images.githubusercontent.com/90170330/233784855-6c06f829-95ae-4705-b746-3777d7e33155.png)
+<img src="https://user-images.githubusercontent.com/90170330/233784855-6c06f829-95ae-4705-b746-3777d7e33155.png" width="600">  
 
 
 **F1 score for Naive Bays**
 
 -  We found an average `F1 Score` of `0.65` for Naive Bays.
 
-![naive bayes accuracy](https://user-images.githubusercontent.com/90170330/233784862-651f43e5-c3d6-4281-bba3-d065433b6524.png)
+<img src="https://user-images.githubusercontent.com/90170330/233784862-651f43e5-c3d6-4281-bba3-d065433b6524.png" width="600">  
 
 ## LinearSVC Classifer
 
@@ -183,13 +184,13 @@ For `Vectorizing`, we used the `TfidVectorizer` which "converts a collection of 
 
 **Confusion Matrix for LinearSVC**
   
-![linearsvc](https://user-images.githubusercontent.com/90170330/233785152-800fbb3f-3c28-4e4f-9a94-8e2b26afc528.png)
+<img src="https://user-images.githubusercontent.com/90170330/233785152-800fbb3f-3c28-4e4f-9a94-8e2b26afc528.png" width="600">  
 
 **F1 score for LinearSVC**
 
 -  We found an average `F1 Score` of `0.67` for LinearSVC.
 
-![linearsvc accuracy](https://user-images.githubusercontent.com/90170330/233785172-079a43c8-5674-43a1-bdb1-772f27ad328f.png)
+<img src="https://user-images.githubusercontent.com/90170330/233785172-079a43c8-5674-43a1-bdb1-772f27ad328f.png" width="600">  
 
 ## Recurrent Neural Network using Keras
 
@@ -216,13 +217,13 @@ After training, we evaluated the model and computed the `F1 Scores` and `Confusi
 
 **Confusion Matrix for LTSM Neural Network**
   
-![LTSM](https://user-images.githubusercontent.com/90170330/233785325-a1677c8a-9a42-4e2c-9f33-8e39e0f26e8c.png)
+<img src="https://user-images.githubusercontent.com/90170330/233785325-a1677c8a-9a42-4e2c-9f33-8e39e0f26e8c.png" width="600">  
 
 **F1 score for LTSM Neural Network**
 
 -  We found an average `F1 Score` of `0.73` for LTSM Neural Network.
 
-![LTSM accuracy](https://user-images.githubusercontent.com/90170330/233785342-c7a16344-7aaf-408d-835c-9b8ff8214b1d.png)
+<img src="https://user-images.githubusercontent.com/90170330/233785342-c7a16344-7aaf-408d-835c-9b8ff8214b1d.png" width="600">  
 
 
 ## Bidirectional LTSM Model
@@ -231,20 +232,20 @@ Now we compare the LTSM model with one that has bidirectional layers, which may 
 
 **Confusion Matrix for Bidirectional-LTSM Neural Network**
   
-![bidirectional-LTSM](https://user-images.githubusercontent.com/90170330/233785466-36d19db0-cdf2-4d6f-b2a3-8b430917b218.png)
+<img src="https://user-images.githubusercontent.com/90170330/233785466-36d19db0-cdf2-4d6f-b2a3-8b430917b218.png" width="600">  
 
 
 **F1 score for Bidirectional-LTSM Neural Network**
 
 -  We found an average `F1 Score` of `0.73` for Bidirectional-LTSM Neural Network.
 
-![bidirectional-LTSM accuracy](https://user-images.githubusercontent.com/90170330/233785471-98042504-ebcc-4452-a876-9f8f404499ec.png)
+<img src="https://user-images.githubusercontent.com/90170330/233785471-98042504-ebcc-4452-a876-9f8f404499ec.png" width="600">  
 
 ## Conclusion
 
 **Barplor comparions of model performance**
 
-![conclusion](https://user-images.githubusercontent.com/90170330/233785510-9b8bf20d-b9b8-4a9f-9cc4-7f09df8bd7c3.png)
+<img src="https://user-images.githubusercontent.com/90170330/233785510-9b8bf20d-b9b8-4a9f-9cc4-7f09df8bd7c3.png" width="600">  
 
 AI Predicted Tweet sentiments with `72% Accuracy`. Sentiment Analysis is a tedious task for Humans. With the aid of Machine Learning and Artificial Intelligence, we can accurately predict sentiments of a huge number amount of text, creating a stepping stone for a vast range of applications such as Social Media Monitoring and Cyber Bullying Detection.
 
