@@ -1,6 +1,6 @@
 # Tweet Sentiment Analysis
 
-School of Computer Science and Computer Engineering \
+>School of Computer Science and Computer Engineering \
 Nanyang Technological University \
 Lab: A127 \
 Team: 2
@@ -8,9 +8,9 @@ Team: 2
 ## Our Team
 | Name | Parts Done | Github ID |
 |---|:---:|---|
-| Tan Hee | Exploratory Data Analysis (EDA), Data Preprocessing, VADER model, Github Repo and Report | @tanhee2000 |
-| Kerwin Soon | Exploratory Data Analysis (EDA), Data Preprocessing, Naive Bays Classifier | @kerwinsoon |
-| Lim Zheng Guang | Support Vector Classifier, Recurrent Neural Network | @fixthelights |
+| Tan Hee | Exploratory Data Analysis (EDA), Data Preprocessing, VADER model, Github Repo and Report | [@tanhee2000](https://github.com/tanhee2000) |
+| Kerwin Soon | Exploratory Data Analysis (EDA), Data Preprocessing, Naive Bays Classifier | [@kerwinsoon](https://github.com/kerwinsoon) |
+| Lim Zheng Guang | Support Vector Classifier, Recurrent Neural Network | [@fixthelights](https://github.com/fixthelights) |
 
 ## About
 
@@ -32,7 +32,7 @@ Included in the dataset are 4 columns:
 
 ## Problem Statement
 
-To accurately predict and classify the sentiment of the tweet as positive, negative or neutral using different models.
+To accurately predict and classify the sentiment of tweets as **`positive`**, **`negative`** or **`neutral`** using different models.
 
 ## Exploratory Data Analysis 
 
